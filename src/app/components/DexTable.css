@@ -1,0 +1,32 @@
+.main-table{
+    width: 0.8vw;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+td{
+    text-align: center;
+    vertical-align: center;
+}
+
+.table-data{
+    border: solid gray 1px;
+    width: auto;
+    border-collapse: collapse;
+}
+
+.img-col{
+    min-width: 50px
+}
+
+.id-col{
+    min-width: 50px
+}
+
+.name-col{
+    min-width: 140px
+}
+
+.hp-col, .atk-col, .def-col, .satk-col, .sdef-col, .spd-col, .total-col{
+    min-width: 80px
+}

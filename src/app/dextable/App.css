@@ -1,0 +1,11 @@
+.App{
+    background: radial-gradient(circle, rgba(193,193,193,1) 0%, rgba(217,217,217,1) 100%);
+    font-weight: 450;
+    min-height: 100vh;
+}
+
+.main-title{
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}

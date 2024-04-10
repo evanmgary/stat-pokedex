@@ -1,0 +1,34 @@
+main{
+        background: radial-gradient(circle, rgba(193,193,193,1) 0%, rgba(217,217,217,1) 100%);
+        min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.name-data{
+    display: flex;
+    flex-direction: column;
+}
+
+td{
+    border: 1px solid gray;
+    min-width: 50px;
+    text-align: center;
+    padding-left: 2px;
+}
+
+table{
+    margin: 10px 20px;
+}
+
+h1, h2, .types{
+    margin: 10px 20px;
+}
+
+.name-number{
+    font-size: large;
+    font-weight: bold;
+}

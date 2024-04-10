@@ -1,0 +1,22 @@
+{
+    "": "#000000",
+    "NORMAL" : "#4f4f4f",
+    "FIRE" : "#d65d2d",
+    "WATER" : "#133cf2",
+    "GRASS" : "#389e19", 
+    "POISON": "#3e1f52",
+    "ELECTRIC" : "#73702a",
+    "ICE" : "#33adbd",
+    "FLYING" : "#395b66",
+    "FIGHTING" : "#573e26", 
+    "GROUND" : "#8a725b", 
+    "ROCK" : "#362718",
+    "BUG" : "#435237",
+    "PSYCHIC": "#9d36bf",
+    "GHOST" : "#1f0329",
+    "DRAGON" : "#48065e",
+    "DARK" : "#020005",
+    "STEEL" : "#282829",
+    "FAIRY" : "#c94fc7"
+
+}
