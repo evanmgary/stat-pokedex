@@ -71,7 +71,7 @@ export default function DexTable(props){
             setAscending(!ascending)
         }
     }
-
+ 
     function sortData(){
         if (sortOn === "species"){
             tableArray.sort((a , b) => {
@@ -153,17 +153,19 @@ export default function DexTable(props){
         <div className="main-table-div">
             <table className="main-table">
                 <thead>
-                    <th><button id="img-header" className="table-header-button img-col"></button></th>
-                    <th><button id="num-header" className="table-header-button id-col" onClick={handleSort}>Number</button></th>
-                    <th><button id="name-header" className="table-header-button name-col" onClick={handleSort}>Name</button></th>
-                    <th><button id="type-header" className="table-header-button type-col">Type</button></th>
-                    <th><button id="hp-header" className="table-header-button hp-col" onClick={handleSort}>HP</button></th>
-                    <th><button id="atk-header" className="table-header-button atk-col" onClick={handleSort}>Attack</button></th>
-                    <th><button id="def-header" className="table-header-button def-col" onClick={handleSort}>Defense</button></th>
-                    <th><button id="satk-header" className="table-header-button satk-col" onClick={handleSort}>Sp Attack</button></th>
-                    <th><button id="sdef-header" className="table-header-button sdef-col" onClick={handleSort}>Sp Defense</button></th>
-                    <th><button id="spd-header" className="table-header-button spd-col" onClick={handleSort}>Speed</button></th>
-                    <th><button id="total-header" className="table-header-button total-col" onClick={handleSort}>Total</button></th>
+                    <tr>
+                        <th><button id="img-header" className="table-header-button img-col"></button></th>
+                        <th><button id="num-header" className="table-header-button id-col" onClick={handleSort}>Number</button></th>
+                        <th><button id="name-header" className="table-header-button name-col" onClick={handleSort}>Name</button></th>
+                        <th><button id="type-header" className="table-header-button type-col">Type</button></th>
+                        <th><button id="hp-header" className="table-header-button hp-col" onClick={handleSort}>HP</button></th>
+                        <th><button id="atk-header" className="table-header-button atk-col" onClick={handleSort}>Attack</button></th>
+                        <th><button id="def-header" className="table-header-button def-col" onClick={handleSort}>Defense</button></th>
+                        <th><button id="satk-header" className="table-header-button satk-col" onClick={handleSort}>Sp Attack</button></th>
+                        <th><button id="sdef-header" className="table-header-button sdef-col" onClick={handleSort}>Sp Defense</button></th>
+                        <th><button id="spd-header" className="table-header-button spd-col" onClick={handleSort}>Speed</button></th>
+                        <th><button id="total-header" className="table-header-button total-col" onClick={handleSort}>Total</button></th>
+                    </tr>
                 </thead>
                 <tbody id="table-body" className="table-body">
                     {tableElements}

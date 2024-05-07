@@ -28,7 +28,7 @@ export default function Page({ params }){
                 <GenSelect pageType="page" idnum={id}/>
             </div>
             <div className="header">
-                <Image alt={"Pokemon" + id} className="sprite" height="500" width="500" src={`/images/art/${id}.png`}/>
+                <img alt={"Pokemon" + id} className="sprite" height="500" width="500" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`}/>
                 <div className="name-data flex-col">
                     <h1 className="name-number"><span className="poke-number">{"#" + species}</span>  <span className="poke-name bold">{pokeData.name}</span></h1>
                     <div className="types"><span style={{color: typeColors[type1]}}>{type1}</span> <span style={{color: typeColors[type2]}}>{type2}</span></div>

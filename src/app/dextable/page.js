@@ -25,6 +25,7 @@ export default function Page() {
             <DexTable allPokes={allPokes} generation={generation} generationNum={generationNum} totalStats={totalStats} 
             searchText={searchText} statsLessThan={statsLessThan} setStatsLessThan={setStatsLessThan}
             ascending={ascending} setAscending={setAscending} sortOn={sortOn} setSortOn={setSortOn}/>
+            <h3 className="copyright">Pokemon images and names copyright Nintendo 1995-2024. Data sourced from PokeAPI.</h3>
     </div>
   );
 }
